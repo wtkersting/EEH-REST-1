@@ -1,0 +1,67 @@
+{
+  "name": "Exception",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "appid": {
+      "type": "string",
+      "required": true
+    },
+    "catalog": {
+      "type": "string",
+      "required": true
+    },
+    "code": {
+      "type": "string",
+      "required": true
+    },
+    "data_uuid": {
+      "type": "string",
+      "required": true
+    },
+    "descr": {
+      "type": "string",
+      "required": true
+    },
+    "exc_uuid": {
+      "type": "string",
+      "id": true,
+      "required": true
+    },
+    "id": {
+      "type": "number",
+      "required": false
+    },
+    "priority": {
+      "type": "number",
+      "required": true
+    },
+    "query_name": {
+      "type": "string"
+    },
+    "requeue_qmgr": {
+      "type": "string"
+    },
+    "requeue_queue": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "required": true
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

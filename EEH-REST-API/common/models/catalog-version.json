@@ -1,0 +1,28 @@
+{
+  "name": "CatalogVersion",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Catalog": {
+      "type": "string",
+      "id": true,
+      "required": true
+    },
+    "Version": {
+      "type": "string",
+      "required": true
+    },
+    "id": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

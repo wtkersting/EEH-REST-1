@@ -45,8 +45,8 @@
     },
     "username": {
       "type": "string",
-      "id": false,
-      "required": false
+      "id": true,
+      "required": true
     }
   },
   "validations": [],

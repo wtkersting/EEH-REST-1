@@ -1,0 +1,31 @@
+{
+  "name": "iib-brokerInfo",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "descr": {
+      "type": "string"
+    },
+    "id": {
+      "type": "number",
+      "required": false
+    },
+    "name": {
+      "type": "string",
+      "id": true,
+      "required": true
+    },
+    "uuid": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

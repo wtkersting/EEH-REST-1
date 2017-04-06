@@ -1,0 +1,89 @@
+{
+  "name": "EventDetails-IIB",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "AppData": {
+      "type": [
+        "object"
+      ],
+      "id": false,
+      "required": true
+    },
+    "Catalog": {
+      "type": "object",
+      "required": true
+    },
+    "app_name": {
+      "type": "string"
+    },
+    "app_uuid": {
+      "type": "string"
+    },
+    "event_counter": {
+      "type": "string",
+      "required": true
+    },
+    "event_data_type": {
+      "type": "string"
+    },
+    "event_name": {
+      "type": "string",
+      "required": true
+    },
+    "event_source": {
+      "type": "string",
+      "required": true
+    },
+    "event_timestamp": {
+      "type": "date",
+      "required": true
+    },
+    "event_uuid": {
+      "type": "string",
+      "id": true,
+      "required": true
+    },
+    "event_version": {
+      "type": "string"
+    },
+    "exc_uuid": {
+      "type": "string",
+      "required": false
+    },
+    "global_txid": {
+      "type": "string"
+    },
+    "id": {
+      "type": "number",
+      "required": false
+    },
+    "lib_name": {
+      "type": "string"
+    },
+    "lib_uuid": {
+      "type": "string"
+    },
+    "local_txid": {
+      "type": "string"
+    },
+    "parent_txid": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "string",
+      "required": true
+    },
+    "product_version": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

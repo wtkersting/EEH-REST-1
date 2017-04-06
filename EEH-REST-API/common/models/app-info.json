@@ -1,0 +1,67 @@
+{
+  "name": "appInfo",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Header": {
+      "type": [
+        "object"
+      ]
+    },
+    "appid": {
+      "type": "string",
+      "id": true,
+      "required": true
+    },
+    "application": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string",
+      "required": true
+    },
+    "container": {
+      "type": "string"
+    },
+    "descr": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "file": {
+      "type": "string",
+      "required": true
+    },
+    "function": {
+      "type": "string",
+      "required": true
+    },
+    "hostname": {
+      "type": "string",
+      "required": true
+    },
+    "id": {
+      "type": "number",
+      "required": false
+    },
+    "line": {
+      "type": "string",
+      "required": true
+    },
+    "server": {
+      "type": "string"
+    },
+    "server_cluster": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
