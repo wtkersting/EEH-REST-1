@@ -1,0 +1,40 @@
+product: 1.0.0
+info:
+  name: eeh-rest-api
+  title: EEH-REST-API
+  version: 1.0.0
+  contact:
+    name: William Kersting
+    email: wtkersti@ncsu.edu
+    url: 'https://github.com/wtkersting'
+  license:
+    name: IBM
+    url: 'https://www.ibm.com'
+  termsOfService: 'https://www.ibm.com'
+apis:
+  eeh-rest-api:
+    $ref: EEH-REST-API.yaml
+visibility:
+  view:
+    type: public
+  subscribe:
+    type: authenticated
+plans:
+  platinum-plan:
+    title: Platinum Plan
+    apis: {}
+    approval: true
+  gold-plan:
+    title: Gold Plan
+    apis: {}
+    rate-limits:
+      rate-limit:
+        value: 10000/1minute
+        hard-limit: true
+  silver-plan:
+    title: Silver Plan
+    apis: {}
+    rate-limits:
+      rate-limit:
+        value: 100/1minute
+        hard-limit: true

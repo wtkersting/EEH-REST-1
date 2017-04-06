@@ -1,0 +1,56 @@
+{
+  "name": "Users",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "challenges": {
+      "type": "object",
+      "required": false
+    },
+    "created": {
+      "type": "string",
+      "required": false
+    },
+    "credentials": {
+      "type": "object",
+      "required": false
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "emailVerified": {
+      "type": "boolean",
+      "required": false
+    },
+    "id": {
+      "type": "number",
+      "required": false
+    },
+    "lastUpdated": {
+      "type": "string",
+      "required": false
+    },
+    "realm": {
+      "type": "string",
+      "id": false,
+      "required": false
+    },
+    "status": {
+      "type": "string",
+      "required": false
+    },
+    "username": {
+      "type": "string",
+      "id": false,
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
