@@ -20,5 +20,149 @@
   "mqmd": {
     "dataSource": "EEH-REST-MQMD",
     "public": true
+  },
+  "App": {
+    "dataSource": "EEH-REST-APP",
+    "public": true
+  },
+  "CatalogVersion": {
+    "dataSource": "EEH-REST-CATALOG-VERSION",
+    "public": true
+  },
+  "CodeName": {
+    "dataSource": "EEH-REST-CODE-NAME",
+    "public": true
+  },
+  "Criteria": {
+    "dataSource": "EEH-REST-CRITERIA",
+    "public": true
+  },
+  "Event": {
+    "dataSource": "EEH-REST-EVENT",
+    "public": true
+  },
+  "EventDetails-IIB": {
+    "dataSource": "EEH-REST-EVENTDETAILS-IIB",
+    "public": true
+  },
+  "EventDetails-IIBStats": {
+    "dataSource": "EEH-REST-EVENTDETAILS-IIBSTATS",
+    "public": true
+  },
+  "EventQuery": {
+    "dataSource": "EEH-REST-EVENT-QUERY",
+    "public": true
+  },
+  "Exception": {
+    "dataSource": "EEH-REST-EXCEPTION",
+    "public": true
+  },
+  "ExceptionCatalog": {
+    "dataSource": "EEH-REST-EXCEPTION-CATALOG",
+    "public": true
+  },
+  "ExceptionDetails": {
+    "dataSource": "EEH-REST-EXCEPTION-DETAILS",
+    "public": true
+  },
+  "ExceptionQuery": {
+    "dataSource": "EEH-REST-EXCEPTION-QUERY",
+    "public": true
+  },
+  "TestBridge": {
+    "dataSource": "EEH-REST-TEST-BRIDGE",
+    "public": true
+  },
+  "appInfo": {
+    "dataSource": "EEH-REST-APP-INFO",
+    "public": true
+  },
+  "appQuery": {
+    "dataSource": "EEH-REST-APP-QUERY",
+    "public": true
+  },
+  "catInfo": {
+    "dataSource": "EEH-REST-CAT-INFO",
+    "public": true
+  },
+  "eventRenderer": {
+    "dataSource": "EEH-REST-EVENT-RENDERER",
+    "public": true
+  },
+  "exccatExc": {
+    "dataSource": "EEH-REST-EXCCAT-EXC",
+    "public": true
+  },
+  "exccatExcParm": {
+    "dataSource": "EEH-REST-EXCCAT-EXC-PARM",
+    "public": true
+  },
+  "exch": {
+    "dataSource": "EEH-REST-EXCH",
+    "public": true
+  },
+  "exchAppHeader": {
+    "dataSource": "EEH-REST-EXCH-APP-HEADER",
+    "public": true
+  },
+  "exchApplication": {
+    "dataSource": "EEH-REST-EXCH-APPLICATION",
+    "public": true
+  },
+  "exchDump": {
+    "dataSource": "EEH-REST-EXCH-DUMP",
+    "public": true
+  },
+  "exchParm": {
+    "dataSource": "EEH-REST-EXCH-PARM",
+    "public": true
+  },
+  "exchReQueue": {
+    "dataSource": "EEH-REST-EXCH-RE-QUEUE",
+    "public": true
+  },
+  "exchStack": {
+    "dataSource": "EEH-REST-EXCH-STACK",
+    "public": true
+  },
+  "iib-Catalog": {
+    "dataSource": "EEH-REST-IIB-CATALOG",
+    "public": true
+  },
+  "iib-brokerInfo": {
+    "dataSource": "EEH-REST-IIB-BROKERINFO",
+    "public": true
+  },
+  "iib-eventData": {
+    "dataSource": "EEH-REST-IIB-EVENTDATA",
+    "public": true
+  },
+  "iib-flowInfo": {
+    "dataSource": "EEH-REST-IIB-FLOWINFO",
+    "public": true
+  },
+  "iib-flowStats": {
+    "dataSource": "EEH-REST-IIB-FLOWSTATS",
+    "public": true
+  },
+  "iib-nodeInfo": {
+    "dataSource": "EEH-REST-IIB-NODEINFO",
+    "public": true
+  },
+  "iib-nodeStats": {
+    "dataSource": "EEH-REST-IIB-NODESTATS",
+    "public": true
+  },
+  "iib-serverInfo": {
+    "dataSource": "EEH-REST-IIB-SERVERINFO",
+    "public": true
+  },
+  "iib-terminalStats": {
+    "dataSource": "EEH-REST-IIB-TERMINALSTATS",
+    "public": true
+  },
+  "iib-threadStats": {
+    "dataSource": "EEH-REST-IIB-THREADSTATS",
+    "public": true
   }
 }
