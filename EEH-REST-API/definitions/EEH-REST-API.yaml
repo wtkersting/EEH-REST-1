@@ -11854,7 +11854,11 @@ x-ibm-configuration:
     sb:
       properties:
         runtime-url: >-
+<<<<<<< HEAD
           https://apiconnect-6fe1e8c0-8d2f-44ad-83ce-11c6e42c5434.ncsu-sr-design-proj-4-dev.apic.mybluemix.net
+=======
+          https://apiconnect-b1505f74-c858-44a3-a5e9-d9b2d35eeb74.rgupta1usibmcom-redbook.apic.mybluemix.net
+>>>>>>> 6bd7a34aa4447e5ec356cb7f9d6bf5c82b393349
         invoke-tls-profile: 'client:Loopback-client'
   assembly:
     execute:
@@ -11865,7 +11869,11 @@ x-ibm-configuration:
   properties:
     TARGET_HOST:
       value: >-
+<<<<<<< HEAD
         https://apiconnect-3eb7f77d-b96b-406d-ac45-3d3021243c03.ncsu-sr-design-proj-4-eeh-rest-security-api.apic.mybluemix.net
+=======
+        https://apiconnect-b1505f74-c858-44a3-a5e9-d9b2d35eeb74.rgupta1usibmcom-redbook.apic.mybluemix.net
+>>>>>>> 6bd7a34aa4447e5ec356cb7f9d6bf5c82b393349
       description: TARGET_HOST
       encoded: false
     runtime-url:
