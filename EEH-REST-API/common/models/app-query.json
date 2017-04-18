@@ -34,7 +34,7 @@
     "id": {
       "type": "number",
       "id": false,
-      "required": true
+      "required": false
     },
     "server": {
       "type": "string"

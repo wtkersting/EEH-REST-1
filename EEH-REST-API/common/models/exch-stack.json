@@ -24,7 +24,7 @@
     "id": {
       "type": "number",
       "id": false,
-      "required": true
+      "required": false
     },
     "line": {
       "type": "string",

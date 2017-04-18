@@ -49,7 +49,7 @@
     "id": {
       "type": "number",
       "id": false,
-      "required": true
+      "required": false
     },
     "msgFlags": {
       "type": "string"

@@ -13,7 +13,7 @@
     "id": {
       "type": "number",
       "id": false,
-      "required": true
+      "required": false
     },
     "mobile_renderer": {
       "type": "string",

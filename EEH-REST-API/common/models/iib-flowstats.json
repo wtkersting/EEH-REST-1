@@ -45,7 +45,7 @@
     "id": {
       "type": "number",
       "id": false,
-      "required": true
+      "required": false
     },
     "input_msg_max_size": {
       "type": "string",

@@ -21,7 +21,7 @@
     "id": {
       "type": "number",
       "id": false,
-      "required": true
+      "required": false
     },
     "invocations": {
       "type": "string",
