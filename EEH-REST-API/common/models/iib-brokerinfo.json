@@ -16,11 +16,12 @@
     },
     "name": {
       "type": "string",
-      "id": true,
+      "id": false,
       "required": true
     },
     "uuid": {
       "type": "string",
+      "id": true,
       "required": true
     }
   },

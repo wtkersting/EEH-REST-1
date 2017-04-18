@@ -27,11 +27,13 @@
       ]
     },
     "hostname": {
-      "type": "string"
+      "type": "string",
+      "id": true,
+      "required": true
     },
     "id": {
       "type": "number",
-      "id": true,
+      "id": false,
       "required": true
     },
     "server": {

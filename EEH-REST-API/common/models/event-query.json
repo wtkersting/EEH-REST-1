@@ -33,12 +33,12 @@
     },
     "query_name": {
       "type": "string",
-      "id": true,
+      "id": false,
       "required": true
     },
     "user_id": {
       "type": "string",
-      "id": false,
+      "id": true,
       "required": true
     }
   },

@@ -44,7 +44,7 @@
     },
     "id": {
       "type": "number",
-      "id": true,
+      "id": false,
       "required": true
     },
     "input_msg_max_size": {
@@ -57,6 +57,7 @@
     },
     "input_msg_no": {
       "type": "string",
+      "id": true,
       "required": true
     },
     "input_msg_total_size": {
@@ -93,6 +94,7 @@
     },
     "threads_pool_size": {
       "type": "string",
+      "id": false,
       "required": true
     },
     "timeout_agregession": {
