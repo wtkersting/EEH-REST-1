@@ -20,12 +20,11 @@
     },
     "id": {
       "type": "number",
-      "id": false,
+      "id": true,
       "required": true
     },
     "invocations": {
       "type": "string",
-      "id": true,
       "required": true
     },
     "max_cpu_time": {

@@ -48,7 +48,7 @@
     },
     "id": {
       "type": "number",
-      "id": false,
+      "id": true,
       "required": true
     },
     "msgFlags": {
@@ -92,7 +92,6 @@
     },
     "version": {
       "type": "string",
-      "id": true,
       "required": true
     }
   },

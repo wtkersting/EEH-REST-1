@@ -20,7 +20,6 @@
     },
     "email": {
       "type": "string",
-      "id": true,
       "required": true
     },
     "emailVerified": {
@@ -46,7 +45,7 @@
     },
     "username": {
       "type": "string",
-      "id": false,
+      "id": true,
       "required": true
     }
   },

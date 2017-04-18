@@ -1,0 +1,76 @@
+type: bluemix
+server:
+  displayName: US South
+  name: us-south
+  host: us.apiconnect.ibmcloud.com
+org:
+  id: 58eda9ef0cf2eb159d7e924b
+  name: rgupta1usibmcom-redbook
+  displayName: rgupta1@us.ibm.com (redbook)
+  orgType: apiProvider
+  status: active
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+  dormant: false
+  url: 'https://us.apiconnect.ibmcloud.com/v1/orgs/58eda9ef0cf2eb159d7e924b'
+  externalOrgId: c269e684-20fb-4096-ae8b-4198cc6e9817
+  externalInviteOverride: 'https://console.ng.bluemix.net/apis/catalog/invitation'
+  externalSpaceId: c269e684-20fb-4096-ae8b-4198cc6e9817
+  externalNativeOrgId: bb202d52-0520-4d52-b485-c95919fe495d
+catalog:
+  id: 58eda9ef0cf2eb159d7e9257
+  orgId: 58eda9ef0cf2eb159d7e924b
+  name: Sandbox
+  shortName: sb
+  owner:
+    id: 573bcf710cf29a01c013c95c
+    username: rgupta1@us.ibm.com
+    context: apimanager
+    idpId: 58341db4e63b1219f0f068d1
+    email: rgupta1@us.ibm.com
+    firstName: Rahul Gupta
+    lastName: ''
+    status: ACTIVE
+    lastLoginTime: '2017-04-12T04:02:48.936+0000'
+    url: 'https://us.apiconnect.ibmcloud.com/v1/users/573bcf710cf29a01c013c95c'
+  apiCenter: false
+  baseUrl: 'https://api.us.apiconnect.ibmcloud.com/rgupta1usibmcom-redbook/sb'
+  portalType: BASIC
+  portalUrl: 'https://developer.us.apiconnect.ibmcloud.com/rgupta1usibmcom-redbook/sb'
+  advPortalUrl: 'https://sb-rgupta1usibmcom-redbook.developer.us.apiconnect.ibmcloud.com'
+  gatewayType: DataPowerGateway
+  idp: 58eda9f00cf2eb159d7e9258
+  idps:
+    - 58eda9f00cf2eb159d7e9258
+  availableRoles:
+    - developer
+    - viewer
+  default: false
+  autoDeploy: true
+  gatewayClusterUrl: /gatewayClusters/PRODAPIC_APIMGMT_GATEWAY
+  restrictedDeployment: false
+  invitationEnabled: true
+  selfSignUpEnabled: true
+  spaceEnabled: false
+  spaceIds:
+    - 58eda9f00cf2eb159d7e9260
+  testAppEnabled: true
+  testAppCredentials:
+    clientId: 7a5b3ca3-1a45-467b-999f-70e7cc0f04e0
+    clientSecret: bT3kD1gU0cF3cO7gS1pP2yT7mR2nD7aK2xB6tQ0hD8hG7dL7lY
+  createdAt: '2017-04-12T04:15:44.931+0000'
+  updatedAt: '2017-04-12T04:15:44.931+0000'
+  createdBy: apim-ops@wwpdl.vnet.ibm.com
+  updatedBy: apim-ops@wwpdl.vnet.ibm.com
+  url: >-
+    https://us.apiconnect.ibmcloud.com/v1/orgs/58eda9ef0cf2eb159d7e924b/environments/58eda9ef0cf2eb159d7e9257
+  productDeploymentApprovalRequiredStates: []
+  orgName: rgupta1usibmcom-redbook
+space:
+  none: true
+app:
+  new: true
+  name: eeh-rest-api-ncsu
+id: 2934ac81-0208-424d-9569-3d83a8a05d8c
+target: 1.0.0

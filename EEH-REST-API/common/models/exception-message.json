@@ -17,7 +17,6 @@
     },
     "exch_version": {
       "type": "string",
-      "id": true,
       "required": true
     },
     "id": {
@@ -26,7 +25,7 @@
     },
     "name": {
       "type": "string",
-      "id": false,
+      "id": true,
       "required": true
     }
   },

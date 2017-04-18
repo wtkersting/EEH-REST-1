@@ -9,12 +9,10 @@
   "properties": {
     "class": {
       "type": "string",
-      "id": true,
       "required": true
     },
     "file": {
       "type": "string",
-      "id": false,
       "required": true
     },
     "function": {
@@ -23,7 +21,7 @@
     },
     "id": {
       "type": "number",
-      "id": false,
+      "id": true,
       "required": true
     },
     "line": {
