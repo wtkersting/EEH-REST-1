@@ -22,7 +22,7 @@
     },
     "name": {
       "type": "string",
-      "id": true,
+      "id": false,
       "required": true
     },
     "notification": {
@@ -42,6 +42,7 @@
     },
     "user_id": {
       "type": "string",
+      "id": true,
       "required": true
     }
   },

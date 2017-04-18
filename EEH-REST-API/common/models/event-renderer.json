@@ -12,7 +12,7 @@
     },
     "id": {
       "type": "number",
-      "id": true,
+      "id": false,
       "required": true
     },
     "mobile_renderer": {
@@ -21,7 +21,8 @@
     },
     "web_renderer": {
       "type": "string",
-      "required": false
+      "id": true,
+      "required": true
     }
   },
   "validations": [],
