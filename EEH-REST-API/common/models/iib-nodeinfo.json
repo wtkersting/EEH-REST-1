@@ -13,10 +13,6 @@
     "detail": {
       "type": "string"
     },
-    "id": {
-      "type": "number",
-      "required": false
-    },
     "nodeLabel": {
       "type": "string",
       "id": true,

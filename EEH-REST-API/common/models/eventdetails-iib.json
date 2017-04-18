@@ -58,10 +58,6 @@
     "global_txid": {
       "type": "string"
     },
-    "id": {
-      "type": "number",
-      "required": false
-    },
     "lib_name": {
       "type": "string"
     },

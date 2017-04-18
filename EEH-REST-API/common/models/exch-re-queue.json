@@ -14,10 +14,6 @@
       "type": "string",
       "required": true
     },
-    "id": {
-      "type": "number",
-      "required": false
-    },
     "qmgr": {
       "type": "string",
       "required": true

@@ -16,10 +16,6 @@
     "end_timestamp": {
       "type": "string"
     },
-    "id": {
-      "type": "number",
-      "required": false
-    },
     "name": {
       "type": "string",
       "id": false,

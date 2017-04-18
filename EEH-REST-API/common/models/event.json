@@ -42,10 +42,6 @@
     "global_txid": {
       "type": "string"
     },
-    "id": {
-      "type": "number",
-      "required": false
-    },
     "local_tx_name": {
       "type": "string"
     },

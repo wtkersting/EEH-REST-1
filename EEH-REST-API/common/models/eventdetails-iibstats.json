@@ -35,10 +35,6 @@
       "id": true,
       "required": true
     },
-    "id": {
-      "type": "number",
-      "required": false
-    },
     "start_timestamp": {
       "type": "date",
       "required": true

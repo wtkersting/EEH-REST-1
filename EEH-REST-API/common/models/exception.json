@@ -31,10 +31,6 @@
       "id": true,
       "required": true
     },
-    "id": {
-      "type": "number",
-      "required": false
-    },
     "priority": {
       "type": "number",
       "required": true

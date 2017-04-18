@@ -45,10 +45,6 @@
       "type": "string",
       "required": true
     },
-    "id": {
-      "type": "number",
-      "required": false
-    },
     "line": {
       "type": "string",
       "required": true

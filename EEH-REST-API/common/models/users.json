@@ -27,10 +27,6 @@
       "type": "boolean",
       "required": false
     },
-    "id": {
-      "type": "number",
-      "required": false
-    },
     "lastUpdated": {
       "type": "string",
       "required": false

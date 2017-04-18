@@ -10,10 +10,6 @@
     "descr": {
       "type": "string"
     },
-    "id": {
-      "type": "number",
-      "required": false
-    },
     "name": {
       "type": "string",
       "required": true

@@ -40,10 +40,6 @@
       "id": true,
       "required": true
     },
-    "id": {
-      "type": "number",
-      "required": false
-    },
     "managed": {
       "type": "boolean"
     },

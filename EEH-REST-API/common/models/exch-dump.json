@@ -12,10 +12,6 @@
       "id": true,
       "required": true
     },
-    "id": {
-      "type": "number",
-      "required": false
-    },
     "type": {
       "type": "string",
       "required": true

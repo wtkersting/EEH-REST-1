@@ -46,11 +46,6 @@
     "grpId": {
       "type": "string"
     },
-    "id": {
-      "type": "number",
-      "id": false,
-      "required": false
-    },
     "msgFlags": {
       "type": "string"
     },

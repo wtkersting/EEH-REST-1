@@ -34,10 +34,6 @@
       "id": true,
       "required": true
     },
-    "id": {
-      "type": "number",
-      "required": false
-    },
     "name": {
       "type": "string",
       "required": true

@@ -15,10 +15,6 @@
     "Version": {
       "type": "string",
       "required": true
-    },
-    "id": {
-      "type": "number",
-      "required": false
     }
   },
   "validations": [],

@@ -21,11 +21,6 @@
       "type": "string",
       "required": true
     },
-    "id": {
-      "type": "number",
-      "id": false,
-      "required": false
-    },
     "line": {
       "type": "string",
       "required": true

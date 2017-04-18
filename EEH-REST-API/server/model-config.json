@@ -164,5 +164,9 @@
   "iib-threadStats": {
     "dataSource": "EEH-REST-IIB-THREADSTATS",
     "public": true
+  },
+  "ExceptionMessage": {
+    "dataSource": "EEH-REST-EXCEPTION-MESSAGE",
+    "public": true
   }
 }
