@@ -11341,9 +11341,8 @@ securityDefinitions:
     name: X-IBM-Client-Secret
     type: apiKey
 security:
-  - clientIdHeader: []
-    clientSecretHeader: []
-    OAuth: []
+  - OAuth: []
+    clientIdHeader: []
 x-ibm-configuration:
   testable: true
   enforced: true
