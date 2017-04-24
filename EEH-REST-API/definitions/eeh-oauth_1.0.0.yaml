@@ -6,7 +6,7 @@ info:
 schemes:
   - https
 host: $(catalog.host)
-basePath: /eeh-oauth
+basePath: /oauth-end
 securityDefinitions:
   clientID:
     description: application's client_id
@@ -263,8 +263,7 @@ x-ibm-configuration:
   phase: realized
   oauth2:
     client-type: public
-    scopes:
-      Users: Allows access to view Users
+    scopes: {}
     grants:
       - implicit
     identity-extraction:
