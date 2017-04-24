@@ -1,0 +1,121 @@
+type: bluemix
+server:
+  displayName: US South
+  name: us-south
+  host: us.apiconnect.ibmcloud.com
+org:
+  id: 58ebe2b90cf2e2e1ff5eec22
+  name: ncsu-sr-design-proj-4-eeh-rest-security-api
+  displayName: NCSU Sr. Design Proj. 4 (EEH REST Security API)
+  orgType: apiProvider
+  status: active
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+  dormant: false
+  url: 'https://us.apiconnect.ibmcloud.com/v1/orgs/58ebe2b90cf2e2e1ff5eec22'
+  externalOrgId: 3beec49c-9491-4bbf-85cb-88cba6e3f4bd
+  externalInviteOverride: 'https://console.ng.bluemix.net/apis/catalog/invitation'
+  externalSpaceId: 3beec49c-9491-4bbf-85cb-88cba6e3f4bd
+  externalNativeOrgId: f4c873b2-a9c1-47ac-87b3-67756a77c0fa
+catalog:
+  id: 58ebe2b90cf2e2e1ff5eec2e
+  orgId: 58ebe2b90cf2e2e1ff5eec22
+  name: Sandbox
+  shortName: sb
+  owner:
+    id: 5808ddb30cf2ca5933a9d6ec
+    username: wtkersti@ncsu.edu
+    context: apimanager
+    idpId: 58341db4e63b1219f0f068d1
+    email: wtkersti@ncsu.edu
+    firstName: William Kersting
+    lastName: ''
+    status: ACTIVE
+    lastLoginTime: '2017-04-20T21:32:17.606+0000'
+    url: 'https://us.apiconnect.ibmcloud.com/v1/users/5808ddb30cf2ca5933a9d6ec'
+  apiCenter: false
+  baseUrl: >-
+    https://api.us.apiconnect.ibmcloud.com/ncsu-sr-design-proj-4-eeh-rest-security-api/sb
+  portalType: ADVANCED
+  portalUrl: >-
+    https://developer.us.apiconnect.ibmcloud.com/ncsu-sr-design-proj-4-eeh-rest-security-api/sb
+  customPortalUrl: >-
+    https://developer.us.apiconnect.ibmcloud.com/ncsu-sr-design-proj-4-eeh-rest-security-api/sb
+  advPortalUrl: >-
+    https://sb-ncsu-sr-design-proj-4-eeh-rest-security-api.developer.us.apiconnect.ibmcloud.com
+  gatewayType: DataPowerGateway
+  idp: 58ebe2bb0cf2e2e1ff5eec2f
+  idps:
+    - 58ebe2bb0cf2e2e1ff5eec2f
+  availableRoles:
+    - viewer
+    - developer
+  default: false
+  autoDeploy: true
+  gatewayClusterUrl: /gatewayClusters/PRODAPIC_APIMGMT_GATEWAY
+  restrictedDeployment: false
+  invitationEnabled: true
+  selfSignUpEnabled: true
+  spaceEnabled: false
+  spaceIds:
+    - 58ebe2bb0cf2e2e1ff5eec37
+  testAppEnabled: true
+  testAppCredentials:
+    clientId: d16bac84-da6b-4005-b4b7-f6f43c33d10e
+    clientSecret: C7dA2dI1nO8eC8cJ5pN4wG7aA1xU5lD6nG1xR4oA0tK0tD5mJ7
+  createdAt: '2017-04-10T19:53:31.054+0000'
+  updatedAt: '2017-04-20T13:52:31.480+0000'
+  createdBy: apim-ops@wwpdl.vnet.ibm.com
+  updatedBy: wtkersti@ncsu.edu
+  url: >-
+    https://us.apiconnect.ibmcloud.com/v1/orgs/58ebe2b90cf2e2e1ff5eec22/environments/58ebe2b90cf2e2e1ff5eec2e
+  productDeploymentApprovalRequiredStates: []
+  orgName: ncsu-sr-design-proj-4-eeh-rest-security-api
+space:
+  none: true
+app:
+  metadata:
+    guid: facf6b2c-6eea-4051-8c4b-0fcc50de5ed3
+    url: /v2/apps/facf6b2c-6eea-4051-8c4b-0fcc50de5ed3
+    created_at: '2017-04-12T14:21:53Z'
+    updated_at: '2017-04-12T14:25:05Z'
+  entity:
+    name: eeh-rest-api
+    production: false
+    space_guid: 3beec49c-9491-4bbf-85cb-88cba6e3f4bd
+    stack_guid: ac91d31a-86a3-453b-babf-8d49c9d763fc
+    buildpack: null
+    detected_buildpack: 'SDK for Node.js(TM) (ibm-node.js-4.8.0, buildpack-v3.11-20170303-1144)'
+    environment_json: {}
+    memory: 256
+    instances: 1
+    disk_quota: 1024
+    state: STARTED
+    version: aeced6b8-f1b9-424b-bd23-e1fc4f474e13
+    command: null
+    console: true
+    debug: null
+    staging_task_id: e461837b0afc4a3ab3c3f4d094607c2b
+    package_state: STAGED
+    health_check_type: port
+    health_check_timeout: null
+    staging_failed_reason: null
+    staging_failed_description: null
+    diego: true
+    docker_image: null
+    package_updated_at: '2017-04-12T14:21:56Z'
+    detected_start_command: ./vendor/initial_startup.rb
+    enable_ssh: true
+    docker_credentials_json:
+      redacted_message: '[PRIVATE DATA HIDDEN]'
+    ports:
+      - 8080
+    space_url: /v2/spaces/3beec49c-9491-4bbf-85cb-88cba6e3f4bd
+    stack_url: /v2/stacks/ac91d31a-86a3-453b-babf-8d49c9d763fc
+    routes_url: /v2/apps/facf6b2c-6eea-4051-8c4b-0fcc50de5ed3/routes
+    events_url: /v2/apps/facf6b2c-6eea-4051-8c4b-0fcc50de5ed3/events
+    service_bindings_url: /v2/apps/facf6b2c-6eea-4051-8c4b-0fcc50de5ed3/service_bindings
+    route_mappings_url: /v2/apps/facf6b2c-6eea-4051-8c4b-0fcc50de5ed3/route_mappings
+id: 02c77863-f20f-4384-a83c-bdde3b2864fa
+target: 1.0.0
