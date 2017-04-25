@@ -11331,7 +11331,8 @@ securityDefinitions:
     flow: implicit
     authorizationUrl: >-
       https://api.us.apiconnect.ibmcloud.com/ncsu-sr-design-proj-4-eeh-rest-security-api/sb/eeh-oauth/oauth2/authorize
-    scopes: {}
+    scopes:
+      Users: Allows access to get Users
   clientIdHeader:
     type: apiKey
     in: header
@@ -11341,7 +11342,8 @@ securityDefinitions:
     name: X-IBM-Client-Secret
     type: apiKey
 security:
-  - OAuth: []
+  - OAuth:
+      - Users
     clientIdHeader: []
 x-ibm-configuration:
   testable: true

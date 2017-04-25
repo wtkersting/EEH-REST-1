@@ -40,7 +40,7 @@ paths:
           in: query
           description: Scope being requested
           type: string
-          required: true
+          required: false
         - name: redirect_uri
           in: query
           type: string
@@ -263,7 +263,8 @@ x-ibm-configuration:
   phase: realized
   oauth2:
     client-type: public
-    scopes: {}
+    scopes:
+      Users: Allows scope into Users
     grants:
       - implicit
     identity-extraction:
