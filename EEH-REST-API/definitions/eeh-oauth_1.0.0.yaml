@@ -264,19 +264,20 @@ x-ibm-configuration:
   oauth2:
     client-type: public
     scopes:
-      Users: Allows scope into Users
+      api: Access to full API
     grants:
       - implicit
     identity-extraction:
-      type: custom-form
+      type: default-form
       custom-form:
         url: 'http://eeh-case-oauth-authenticate.mybluemix.net/login.html'
+      redirect-url: 'https://localhost'
     authentication:
       x-ibm-authentication-url:
         url: 'http://eeh-case-oauth-authenticate.mybluemix.net/authenticate'
         tls-profile: ''
     authorization:
-      type: custom-form
+      type: default-form
       custom-form:
         url: 'http://eeh-case-oauth-authenticate.mybluemix.net/grant.html'
     access-token:
