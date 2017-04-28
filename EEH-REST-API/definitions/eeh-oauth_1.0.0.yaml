@@ -3,6 +3,14 @@ info:
   x-ibm-name: eeh-oauth
   title: EEH-OAUTH
   version: 1.0.0
+  contact:
+    name: William Kersting
+    email: wtkersti@ncsu.edu
+    url: 'https://github.com/wtkersting'
+  termsOfService: 'https://www.ibm.com'
+  license:
+    name: IBM
+    url: 'https://www.ibm.com'
 schemes:
   - https
 host: $(catalog.host)
@@ -309,3 +317,7 @@ definitions:
         type: string
       refresh_token:
         type: string
+externalDocs:
+  description: EEH REST API OAuth 2.0
+  url: >-
+    https://www.ibm.com/developerworks/community/wikis/form/anonymous/api/wiki/0571da3f-2daa-4152-b791-11fb38aedd2e/page/cf0f76ad-626a-4a1b-8038-643910fce366/attachment/b3fdea8a-d556-402b-a4da-8ed68f6b0581/media/IBM%20Services%20Asset%20-%20EEH%20-%20REST%20API%20Security.pdf
